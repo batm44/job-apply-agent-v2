@@ -40,7 +40,7 @@ It never sends messages to recruiters, and it never applies to the same job twic
 2. Copy this line, paste it into PowerShell (right-click pastes), and press **Enter**:
 
    ```powershell
-   cd $HOME\Documents; git clone https://github.com/batm44/job-apply-agent.git; cd job-apply-agent
+   cd $HOME\Documents; git clone https://github.com/batm44/job-apply-agent-v2.git job-apply-agent; cd job-apply-agent
    ```
 
 ✅ You should now be in the folder `Documents\job-apply-agent`.
