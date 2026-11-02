@@ -206,3 +206,7 @@ Your PC must be on and you must be logged in for it to run.
 - Tests: `.\.venv\Scripts\python.exe -m unittest discover -p "test_*.py"`
 
 Job discovery and scoring are powered by [career-ops](https://github.com/career-ops-hq/career-ops) (MIT licence, by santifer and contributors). It's downloaded separately by `setup.ps1` and isn't included in this repository.
+
+## Licence
+
+MIT. See [LICENSE](LICENSE). You may use, copy, change and share this project freely. career-ops is a separate project with its own MIT licence.
