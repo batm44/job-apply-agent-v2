@@ -1,0 +1,28 @@
+[
+  {
+    "company": "Example Employer (replace with real employer)",
+    "title": "Senior Data Scientist",
+    "location": "Amsterdam, Netherlands",
+    "country": "Netherlands",
+    "work_mode": "hybrid",
+    "seniority": "senior",
+    "hands_on": true,
+    "technical_ownership": true,
+    "engagement": "employment",
+    "contract_type": "permanent",
+    "url": "https://careers.example.com/jobs/123",
+    "requisition": "123",
+    "posted_on": "2026-11-01",
+    "posting_evidence": {"source_type": "official_employer", "url": "https://careers.example.com/jobs/123", "checked_on": "2026-11-01", "quote": "Replace with actual employer posting date evidence"},
+    "sponsorship": "verified",
+    "sponsorship_evidence": {"source_type": "official_employer", "country": "Netherlands", "url": "https://careers.example.com/jobs/123", "checked_on": "2026-11-01", "quote": "Replace with actual role/policy visa support evidence"},
+    "remote_allowed_countries": [],
+    "salary": null,
+    "career_ops_score": 4.2,
+    "career_ops_report": "C:\\path\\to\\career-ops\\reports\\001-example-2026-11-01.md",
+    "requirements": [
+      {"name": "Production model lifecycle ownership", "mandatory": true, "status": "met", "evidence_kind": "production", "profile_reference": "/experience/0/bullets/0", "evidence": "Owned production deployment"},
+      {"name": "Masters degree", "mandatory": true, "status": "unknown", "profile_reference": "/education", "evidence": "Only a bachelor's degree is documented"}
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+# Your personal data: never uploaded.
+data/
+resume/
+applications/
+daily-runs/
+MANUAL_APPLY.md
+*.sqlite*
+*.csv
+
+# Downloaded / generated on your machine by setup.ps1
+career-ops/
+.venv/
+.mcp.json
+__pycache__/
+*.pyc

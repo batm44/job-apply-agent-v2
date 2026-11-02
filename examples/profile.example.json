@@ -1,0 +1,103 @@
+{
+  "updated_at": "2026-11-01",
+  "source": "Example only. Replace every value with your own facts (or ask the AI agent to build this from your resume).",
+  "personal": {
+    "name": "Alex Example",
+    "email": "alex@example.com",
+    "phone": "+91-90000-00000",
+    "location": "Bengaluru, India",
+    "citizenship": "Indian"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/alex-example/",
+    "github": null,
+    "website": null
+  },
+  "headline": "Senior Data Scientist | Credit Risk & Customer Analytics",
+  "summary": "Data scientist with 8 years in banking analytics, building production credit-risk and customer models.",
+  "experience": [
+    {
+      "title": "Senior Data Scientist",
+      "company": "Example Bank",
+      "location": "Bengaluru, India",
+      "start_date": "2021-04",
+      "end_date": null,
+      "current": true,
+      "bullets": [
+        "Owned production deployment of credit-risk scorecards used for loan approvals.",
+        "Built a customer segmentation model covering 5M customers for campaign targeting."
+      ]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Example Analytics Ltd",
+      "location": "Pune, India",
+      "start_date": "2018-07",
+      "end_date": "2021-03",
+      "current": false,
+      "bullets": [
+        "Built churn and response models in Python and SQL for retail clients."
+      ]
+    }
+  ],
+  "total_years_experience": 8,
+  "education": [
+    {"qualification": "B.Tech, Computer Science", "institution": "Example Institute of Technology", "graduation_date": "2018"}
+  ],
+  "top_skills": ["Python", "SQL", "Credit Risk Scorecards", "Customer Segmentation", "MLflow"],
+  "skills_evidence": {
+    "resume_listed": ["Python", "SQL", "XGBoost", "scikit-learn", "MLflow"],
+    "resume_demonstrated": ["Credit risk modelling", "Customer segmentation", "Production model deployment"]
+  },
+  "work_authorization": {
+    "citizenship": "Indian",
+    "home_country": "India",
+    "home_authorization": true,
+    "europe_requires_employer_sponsorship": true
+  },
+  "application_defaults": {
+    "notice_period": "2 months",
+    "education_level": "B.Tech",
+    "years_experience": "8 years"
+  },
+  "resume_file": "C:\\path\\to\\job-apply-agent\\resume\\source_resume.pdf",
+  "application_resume_pdf": "C:\\path\\to\\job-apply-agent\\resume\\resume.pdf",
+  "preferences": {
+    "target_roles_priority": [
+      "Senior / Lead Data Scientist",
+      "Machine Learning Engineer",
+      "Applied AI Scientist / Engineer"
+    ],
+    "target_seniority": ["Senior", "Lead", "Staff"],
+    "willing_to_relocate": true,
+    "location_priority": [
+      {"priority": 1, "country": "Netherlands", "cities": ["Amsterdam", "Utrecht", "Rotterdam"],
+       "work_modes": ["On-site", "Hybrid"], "sponsorship_required": true, "permanent_only": true},
+      {"priority": 2, "countries_cities": {"Germany": ["Berlin", "Munich"], "Ireland": ["Dublin"], "United Kingdom": ["London"]},
+       "work_modes": ["On-site", "Hybrid"], "sponsorship_required": true, "permanent_only": true},
+      {"priority": 3, "work_mode": "Fully remote from India", "explicit_home_eligibility_required": true,
+       "contractor_pay_currencies": ["EUR", "USD"]},
+      {"priority": 4, "country": "India", "cities": ["Bengaluru", "Bangalore"], "work_modes": ["On-site", "Hybrid"],
+       "sponsorship_required": false}
+    ],
+    "allowed_engagements": ["employment", "contractor"],
+    "apply_when_sponsorship_unstated": false,
+    "apply_when_contract_type_unstated": false,
+    "salary_preferences_annual_gross_base": {
+      "Netherlands": {"currency": "EUR", "min_preferred": 80000, "upper_preferred": 110000},
+      "Germany": {"currency": "EUR", "min_preferred": 75000, "upper_preferred": 100000},
+      "United Kingdom": {"currency": "GBP", "min_preferred": 75000},
+      "India": {"currency": "INR", "min_preferred": 4000000},
+      "remote_home_equivalent": {"currency": "INR", "min_preferred": 4000000},
+      "contract": {"day_rate": {"EUR": 500, "USD": 550}},
+      "hard_filter": false,
+      "undisclosed_salary_allowed": true
+    },
+    "excluded_employers": []
+  },
+  "workflow": {
+    "tailor_resume_truthfully": true,
+    "cover_letter_when_beneficial": true,
+    "approval_required_before_each": ["Recruiter email or LinkedIn outreach"]
+  }
+}
